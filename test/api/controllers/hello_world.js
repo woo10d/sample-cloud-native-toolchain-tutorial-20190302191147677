@@ -20,7 +20,7 @@ describe('controllers', function() {
           .end(function(err, res) {
             should.not.exist(err);
 
-            res.body.should.eql('Hello there woo10d!');
+            res.body.should.eql('Hello there stranger!');
 
             done();
           });
@@ -39,7 +39,7 @@ describe('controllers', function() {
           .end(function(err, res) {
             should.not.exist(err);
 
-            res.body.should.eql('Hello there Mr. woo10d!');
+            res.body.should.eql('Hello there stranger!');
 
             done();
           });
